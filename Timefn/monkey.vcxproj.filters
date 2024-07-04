@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ape.cpp" />
+    <ClCompile Include="rat.cpp">
+      <Filter>dtc drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Keybind.h" />
+    <ClInclude Include="ape.h" />
+    <ClInclude Include="ud.h" />
+    <ClInclude Include="rat.h">
+      <Filter>dtc drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_help.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>other useless shit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KeyAuth-CPP-Example-main\skStr.h">
+      <Filter>other useless shit</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>other useless shit</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>other useless shit</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>other useless shit</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>icons</Filter>
+    </ClInclude>
+    <ClInclude Include="iconcpp.h">
+      <Filter>icons</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>icons</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>shitty auth</Filter>
+    </ClInclude>
+    <ClInclude Include="XInput.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="Auth.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dtc drivers">
+      <UniqueIdentifier>{c57e2417-fc27-4aaa-b187-6f0b007c315d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shitty auth">
+      <UniqueIdentifier>{6ab032fb-2ef9-42f4-8b1d-a2cf79e5d93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{d02238fc-6c7f-44bc-a173-a24927368b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other useless shit">
+      <UniqueIdentifier>{fdfcb4dd-daeb-42f5-9151-b598f1e216f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icons">
+      <UniqueIdentifier>{f6660626-9c44-4aa9-95f5-1412f35156b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>shitty auth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>shitty auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
